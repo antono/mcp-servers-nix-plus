@@ -77,6 +77,7 @@ The output format adapts to the `flavor` option — see [Supported Flavors](#sup
 - [esa](./modules/servers/esa.nix)
 - [everything](./modules/servers/everything.nix)
 - [fetch](./modules/servers/fetch.nix)
+- [fibery](./modules/servers/fibery.nix)
 - [filesystem](./modules/servers/filesystem.nix)
 - [freee](./modules/servers/freee.nix)
 - [git](./modules/servers/git.nix)
