@@ -25,15 +25,17 @@
 
 ### Package Categories
 
-| Directory | Description |
-|-----------|-------------|
-| `pkgs/official/` | Packages from the server's upstream maintainers |
-| `pkgs/reference/` | Packages from the MCP reference implementation |
-| `pkgs/community/` | Packages from third-party community authors |
+| Directory         | Description                                                                |
+| ----------------- | -------------------------------------------------------------------------- |
+| `pkgs/official/`  | Packages from the server's upstream maintainers                            |
+| `pkgs/reference/` | Packages from the MCP reference implementation                             |
+| `pkgs/community/` | Packages from third-party community authors                                |
+| `pkgs/plus/`      | Packages accepted via https://github.com/antono/mcp-servers-nix-plus/ fork |
 
 ### Example: Adding a New Package
 
-Create a package definition in the appropriate directory (e.g., `pkgs/official/new-mcp-server/default.nix`):
+Create a package definition in the appropriate directory (e.g.,
+`pkgs/official/new-mcp-server/default.nix`):
 
 ```nix
 {
@@ -78,7 +80,9 @@ Then register it in `pkgs/default.nix`:
 
 ## Adding a Module
 
-Modules live in `modules/servers/` and define how an MCP server is configured. The `mkServerModule` helper provides a consistent set of options (enable, package, args, env, url, headers, envFile, passwordCommand) for every server.
+Modules live in `modules/servers/` and define how an MCP server is configured.
+The `mkServerModule` helper provides a consistent set of options (enable,
+package, args, env, url, headers, envFile, passwordCommand) for every server.
 
 ### Basic Module
 
@@ -92,7 +96,8 @@ For servers that need no special configuration beyond the standard options:
 }
 ```
 
-The `name` parameter maps to `programs.<name>`, and the package defaults to `mcp-server-<name>`. Use `packageName` if the package name differs.
+The `name` parameter maps to `programs.<name>`, and the package defaults to
+`mcp-server-<name>`. Use `packageName` if the package name differs.
 
 ### Module with Args Override
 
@@ -162,7 +167,9 @@ in
 
 ### Complex Module
 
-For servers with validation, dynamic packages, or generated configuration files, see [`modules/servers/textlint.nix`](./modules/servers/textlint.nix) as a reference. It demonstrates:
+For servers with validation, dynamic packages, or generated configuration files,
+see [`modules/servers/textlint.nix`](./modules/servers/textlint.nix) as a
+reference. It demonstrates:
 
 - Conditional package composition (`withPackages`)
 - Generated configuration files from Nix attributes
@@ -170,12 +177,12 @@ For servers with validation, dynamic packages, or generated configuration files,
 
 ### Real-World Examples by Complexity
 
-| Complexity | Example | Key Pattern |
-|-----------|---------|-------------|
-| Minimal | [`modules/servers/fetch.nix`](./modules/servers/fetch.nix) | `mkServerModule` only |
-| Args override | [`modules/servers/github.nix`](./modules/servers/github.nix) | Fixed arguments |
-| Custom options | [`modules/servers/playwright.nix`](./modules/servers/playwright.nix) | Platform-dependent defaults |
-| Complex | [`modules/servers/textlint.nix`](./modules/servers/textlint.nix) | Dynamic packages, assertions, generated config |
+| Complexity     | Example                                                              | Key Pattern                                    |
+| -------------- | -------------------------------------------------------------------- | ---------------------------------------------- |
+| Minimal        | [`modules/servers/fetch.nix`](./modules/servers/fetch.nix)           | `mkServerModule` only                          |
+| Args override  | [`modules/servers/github.nix`](./modules/servers/github.nix)         | Fixed arguments                                |
+| Custom options | [`modules/servers/playwright.nix`](./modules/servers/playwright.nix) | Platform-dependent defaults                    |
+| Complex        | [`modules/servers/textlint.nix`](./modules/servers/textlint.nix)     | Dynamic packages, assertions, generated config |
 
 ## Testing
 
@@ -190,6 +197,7 @@ nix flake check
 ```
 
 The check suite includes:
+
 - Module evaluation tests in `tests/`
 - Example build verification from `examples/`
 - Package builds
@@ -197,10 +205,12 @@ The check suite includes:
 
 ## Updating Module Options Documentation
 
-The [Module Options Reference](docs/module-options.md) is auto-generated from the module definitions. After changing any module options, regenerate it:
+The [Module Options Reference](docs/module-options.md) is auto-generated from
+the module definitions. After changing any module options, regenerate it:
 
 ```bash
 nix-build docs/options-doc.nix -A optionsCommonMark && install -m 644 result docs/module-options.md
 ```
 
-The CI check `module-options-doc` will fail if the committed file is out of date.
+The CI check `module-options-doc` will fail if the committed file is out of
+date.

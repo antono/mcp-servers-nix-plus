@@ -29,7 +29,6 @@ in
   deepl-mcp-server = pkgs.callPackage ./official/deepl { };
   esa-mcp-server = pkgs.callPackage ./official/esa { };
   freee-mcp = pkgs.callPackage ./official/freee { };
-  greenhouse-mcp = pkgs.callPackage ./official/greenhouse { };
   mastra-mcp-docs-server = pkgs.callPackage ./official/mastra { };
   nd-mcp = pkgs.callPackage ./official/netdata { };
   tavily-mcp = pkgs.callPackage ./official/tavily { };
@@ -38,14 +37,14 @@ in
   playwright-mcp = pkgs.callPackage ./official/playwright { };
   github-mcp-server = warnRemoved "github-mcp-server has been removed since it is now available in the nixpkgs 25.11 stable release";
   serena = pkgs.callPackage ./official/serena { };
-  signoz-mcp-server = pkgs.callPackage ./official/signoz { };
   slite-mcp-server = warnRemoved "slite-mcp-server has been removed since upstream stopped distribution in favor of the hosted MCP server at https://api.slite.com/mcp";
 
-  # mcp-servers-nix-plus
-  argocd-mcp = pkgs.callPackage ./official/argocd-mcp { };
-  google-calendar-mcp = pkgs.callPackage ./community/google-calendar-mcp { };
-  mcp-logseq = pkgs.callPackage ./community/mcp-logseq.nix { };
-  chrome-devtools-mcp = pkgs.callPackage ./community/chrome-devtools { };
-  clickup-mcp-server = warnRemoved "clickup-mcp-server has been removed since upstream stopped distribution and switched to shareware";
-  fibery-mcp-server = pkgs.callPackage ./community/fibery-mcp-server { };
+  # mcp-servers-nix-plus (not in upstream)
+  argocd-mcp = pkgs.callPackage ./plus/argocd-mcp { };
+  chrome-devtools-mcp = pkgs.callPackage ./plus/chrome-devtools { };
+  fibery-mcp-server = pkgs.callPackage ./plus/fibery-mcp-server { };
+  google-calendar-mcp = pkgs.callPackage ./plus/google-calendar-mcp { };
+  greenhouse-mcp = pkgs.callPackage ./plus/greenhouse { };
+  mcp-logseq = pkgs.callPackage ./plus/mcp-logseq { };
+  signoz-mcp-server = pkgs.callPackage ./plus/signoz { };
 }
