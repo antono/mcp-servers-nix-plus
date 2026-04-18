@@ -8,7 +8,7 @@ Generated config file derived from the settings\.
 absolute path *(read only)*
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/config\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/config.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/config\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/config.nix)
 
 
 
@@ -32,7 +32,7 @@ string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/config\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/config.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/config\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/config.nix)
 
 
 
@@ -64,7 +64,7 @@ one of “claude”, “claude-code”, “codex”, “opencode”, “vscode�
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/config\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/config.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/config\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/config.nix)
 
 
 
@@ -88,7 +88,7 @@ one of “json”, “yaml”, “toml”, “toml-inline”
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/config\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/config.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/config\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/config.nix)
 
 
 
@@ -120,7 +120,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/argocd\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/argocd.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/argocd\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/argocd.nix)
 
 
 
@@ -144,7 +144,7 @@ pkgs.argocd-mcp
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/argocd\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/argocd.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/argocd\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/argocd.nix)
 
 
 
@@ -169,7 +169,7 @@ string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/argocd\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/argocd.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/argocd\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/argocd.nix)
 
 
 
@@ -193,7 +193,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/argocd\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/argocd.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/argocd\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/argocd.nix)
 
 
 
@@ -225,7 +225,7 @@ string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/argocd\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/argocd.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/argocd\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/argocd.nix)
 
 
 
@@ -252,7 +252,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/argocd\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/argocd.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/argocd\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/argocd.nix)
 
 
 
@@ -277,7 +277,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/argocd\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/argocd.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/argocd\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/argocd.nix)
 
 
 
@@ -314,7 +314,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/argocd\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/argocd.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/argocd\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/argocd.nix)
 
 
 
@@ -362,7 +362,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/argocd\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/argocd.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/argocd\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/argocd.nix)
 
 
 
@@ -386,7 +386,7 @@ false
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/argocd\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/argocd.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/argocd\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/argocd.nix)
 
 
 
@@ -410,7 +410,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/argocd\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/argocd.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/argocd\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/argocd.nix)
 
 
 
@@ -434,7 +434,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/argocd\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/argocd.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/argocd\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/argocd.nix)
 
 
 
@@ -458,7 +458,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/argocd\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/argocd.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/argocd\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/argocd.nix)
 
 
 
@@ -490,7 +490,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/chrome-devtools\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/chrome-devtools.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/chrome-devtools\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/chrome-devtools.nix)
 
 
 
@@ -514,7 +514,7 @@ pkgs.chrome-devtools-mcp
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/chrome-devtools\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/chrome-devtools.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/chrome-devtools\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/chrome-devtools.nix)
 
 
 
@@ -538,7 +538,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/chrome-devtools\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/chrome-devtools.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/chrome-devtools\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/chrome-devtools.nix)
 
 
 
@@ -565,7 +565,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/chrome-devtools\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/chrome-devtools.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/chrome-devtools\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/chrome-devtools.nix)
 
 
 
@@ -590,7 +590,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/chrome-devtools\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/chrome-devtools.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/chrome-devtools\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/chrome-devtools.nix)
 
 
 
@@ -627,7 +627,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/chrome-devtools\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/chrome-devtools.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/chrome-devtools\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/chrome-devtools.nix)
 
 
 
@@ -675,7 +675,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/chrome-devtools\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/chrome-devtools.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/chrome-devtools\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/chrome-devtools.nix)
 
 
 
@@ -699,7 +699,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/chrome-devtools\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/chrome-devtools.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/chrome-devtools\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/chrome-devtools.nix)
 
 
 
@@ -723,7 +723,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/chrome-devtools\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/chrome-devtools.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/chrome-devtools\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/chrome-devtools.nix)
 
 
 
@@ -755,7 +755,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/clickup\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/clickup.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/clickup\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/clickup.nix)
 
 
 
@@ -779,7 +779,7 @@ pkgs.clickup-mcp-server
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/clickup\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/clickup.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/clickup\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/clickup.nix)
 
 
 
@@ -803,7 +803,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/clickup\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/clickup.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/clickup\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/clickup.nix)
 
 
 
@@ -830,7 +830,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/clickup\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/clickup.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/clickup\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/clickup.nix)
 
 
 
@@ -855,7 +855,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/clickup\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/clickup.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/clickup\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/clickup.nix)
 
 
 
@@ -892,7 +892,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/clickup\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/clickup.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/clickup\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/clickup.nix)
 
 
 
@@ -940,7 +940,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/clickup\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/clickup.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/clickup\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/clickup.nix)
 
 
 
@@ -964,7 +964,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/clickup\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/clickup.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/clickup\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/clickup.nix)
 
 
 
@@ -988,7 +988,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/clickup\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/clickup.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/clickup\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/clickup.nix)
 
 
 
@@ -1020,7 +1020,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/codex\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/codex.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/codex\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/codex.nix)
 
 
 
@@ -1044,7 +1044,7 @@ pkgs.codex
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/codex\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/codex.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/codex\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/codex.nix)
 
 
 
@@ -1068,7 +1068,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/codex\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/codex.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/codex\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/codex.nix)
 
 
 
@@ -1095,7 +1095,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/codex\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/codex.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/codex\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/codex.nix)
 
 
 
@@ -1120,7 +1120,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/codex\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/codex.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/codex\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/codex.nix)
 
 
 
@@ -1157,7 +1157,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/codex\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/codex.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/codex\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/codex.nix)
 
 
 
@@ -1205,7 +1205,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/codex\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/codex.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/codex\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/codex.nix)
 
 
 
@@ -1229,7 +1229,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/codex\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/codex.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/codex\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/codex.nix)
 
 
 
@@ -1253,7 +1253,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/codex\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/codex.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/codex\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/codex.nix)
 
 
 
@@ -1285,7 +1285,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/context7\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/context7.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/context7\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/context7.nix)
 
 
 
@@ -1309,7 +1309,7 @@ pkgs.context7-mcp
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/context7\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/context7.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/context7\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/context7.nix)
 
 
 
@@ -1333,7 +1333,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/context7\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/context7.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/context7\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/context7.nix)
 
 
 
@@ -1360,7 +1360,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/context7\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/context7.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/context7\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/context7.nix)
 
 
 
@@ -1385,7 +1385,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/context7\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/context7.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/context7\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/context7.nix)
 
 
 
@@ -1422,7 +1422,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/context7\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/context7.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/context7\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/context7.nix)
 
 
 
@@ -1470,7 +1470,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/context7\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/context7.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/context7\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/context7.nix)
 
 
 
@@ -1494,7 +1494,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/context7\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/context7.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/context7\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/context7.nix)
 
 
 
@@ -1518,7 +1518,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/context7\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/context7.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/context7\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/context7.nix)
 
 
 
@@ -1550,7 +1550,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/deepl\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/deepl.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/deepl\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/deepl.nix)
 
 
 
@@ -1574,7 +1574,7 @@ pkgs.deepl-mcp-server
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/deepl\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/deepl.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/deepl\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/deepl.nix)
 
 
 
@@ -1598,7 +1598,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/deepl\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/deepl.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/deepl\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/deepl.nix)
 
 
 
@@ -1625,7 +1625,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/deepl\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/deepl.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/deepl\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/deepl.nix)
 
 
 
@@ -1650,7 +1650,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/deepl\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/deepl.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/deepl\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/deepl.nix)
 
 
 
@@ -1687,7 +1687,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/deepl\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/deepl.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/deepl\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/deepl.nix)
 
 
 
@@ -1735,7 +1735,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/deepl\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/deepl.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/deepl\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/deepl.nix)
 
 
 
@@ -1759,7 +1759,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/deepl\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/deepl.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/deepl\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/deepl.nix)
 
 
 
@@ -1783,7 +1783,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/deepl\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/deepl.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/deepl\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/deepl.nix)
 
 
 
@@ -1815,7 +1815,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/esa\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/esa.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/esa\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/esa.nix)
 
 
 
@@ -1839,7 +1839,7 @@ pkgs.esa-mcp-server
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/esa\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/esa.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/esa\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/esa.nix)
 
 
 
@@ -1863,7 +1863,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/esa\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/esa.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/esa\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/esa.nix)
 
 
 
@@ -1890,7 +1890,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/esa\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/esa.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/esa\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/esa.nix)
 
 
 
@@ -1915,7 +1915,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/esa\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/esa.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/esa\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/esa.nix)
 
 
 
@@ -1952,7 +1952,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/esa\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/esa.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/esa\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/esa.nix)
 
 
 
@@ -2000,7 +2000,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/esa\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/esa.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/esa\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/esa.nix)
 
 
 
@@ -2024,7 +2024,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/esa\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/esa.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/esa\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/esa.nix)
 
 
 
@@ -2048,7 +2048,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/esa\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/esa.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/esa\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/esa.nix)
 
 
 
@@ -2080,7 +2080,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/everything\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/everything.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/everything\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/everything.nix)
 
 
 
@@ -2104,7 +2104,7 @@ pkgs.mcp-server-everything
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/everything\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/everything.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/everything\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/everything.nix)
 
 
 
@@ -2128,7 +2128,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/everything\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/everything.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/everything\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/everything.nix)
 
 
 
@@ -2155,7 +2155,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/everything\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/everything.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/everything\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/everything.nix)
 
 
 
@@ -2180,7 +2180,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/everything\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/everything.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/everything\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/everything.nix)
 
 
 
@@ -2217,7 +2217,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/everything\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/everything.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/everything\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/everything.nix)
 
 
 
@@ -2265,7 +2265,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/everything\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/everything.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/everything\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/everything.nix)
 
 
 
@@ -2289,7 +2289,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/everything\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/everything.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/everything\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/everything.nix)
 
 
 
@@ -2313,7 +2313,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/everything\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/everything.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/everything\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/everything.nix)
 
 
 
@@ -2345,7 +2345,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fetch\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fetch.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fetch\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fetch.nix)
 
 
 
@@ -2369,7 +2369,7 @@ pkgs.mcp-server-fetch
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fetch\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fetch.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fetch\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fetch.nix)
 
 
 
@@ -2393,7 +2393,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fetch\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fetch.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fetch\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fetch.nix)
 
 
 
@@ -2420,7 +2420,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fetch\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fetch.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fetch\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fetch.nix)
 
 
 
@@ -2445,7 +2445,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fetch\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fetch.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fetch\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fetch.nix)
 
 
 
@@ -2482,7 +2482,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fetch\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fetch.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fetch\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fetch.nix)
 
 
 
@@ -2530,7 +2530,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fetch\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fetch.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fetch\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fetch.nix)
 
 
 
@@ -2554,7 +2554,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fetch\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fetch.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fetch\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fetch.nix)
 
 
 
@@ -2578,7 +2578,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fetch\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fetch.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fetch\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fetch.nix)
 
 
 
@@ -2610,7 +2610,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fibery\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fibery.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fibery\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fibery.nix)
 
 
 
@@ -2634,7 +2634,7 @@ pkgs.fibery-mcp-server
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fibery\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fibery.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fibery\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fibery.nix)
 
 
 
@@ -2650,7 +2650,7 @@ Fibery API token
 string
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fibery\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fibery.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fibery\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fibery.nix)
 
 
 
@@ -2674,7 +2674,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fibery\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fibery.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fibery\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fibery.nix)
 
 
 
@@ -2701,7 +2701,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fibery\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fibery.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fibery\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fibery.nix)
 
 
 
@@ -2726,7 +2726,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fibery\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fibery.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fibery\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fibery.nix)
 
 
 
@@ -2763,7 +2763,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fibery\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fibery.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fibery\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fibery.nix)
 
 
 
@@ -2779,7 +2779,7 @@ Fibery host (e\.g\., your-domain\.fibery\.io)
 string
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fibery\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fibery.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fibery\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fibery.nix)
 
 
 
@@ -2827,7 +2827,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fibery\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fibery.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fibery\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fibery.nix)
 
 
 
@@ -2851,7 +2851,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fibery\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fibery.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fibery\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fibery.nix)
 
 
 
@@ -2875,7 +2875,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/fibery\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/fibery.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/fibery\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/fibery.nix)
 
 
 
@@ -2907,7 +2907,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/filesystem\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/filesystem.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/filesystem\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/filesystem.nix)
 
 
 
@@ -2931,7 +2931,7 @@ pkgs.mcp-server-filesystem
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/filesystem\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/filesystem.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/filesystem\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/filesystem.nix)
 
 
 
@@ -2953,7 +2953,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/filesystem\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/filesystem.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/filesystem\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/filesystem.nix)
 
 
 
@@ -2980,7 +2980,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/filesystem\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/filesystem.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/filesystem\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/filesystem.nix)
 
 
 
@@ -3005,7 +3005,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/filesystem\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/filesystem.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/filesystem\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/filesystem.nix)
 
 
 
@@ -3042,7 +3042,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/filesystem\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/filesystem.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/filesystem\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/filesystem.nix)
 
 
 
@@ -3090,7 +3090,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/filesystem\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/filesystem.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/filesystem\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/filesystem.nix)
 
 
 
@@ -3114,7 +3114,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/filesystem\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/filesystem.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/filesystem\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/filesystem.nix)
 
 
 
@@ -3138,7 +3138,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/filesystem\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/filesystem.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/filesystem\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/filesystem.nix)
 
 
 
@@ -3170,7 +3170,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/freee\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/freee.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/freee\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/freee.nix)
 
 
 
@@ -3194,7 +3194,7 @@ pkgs.freee-mcp
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/freee\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/freee.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/freee\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/freee.nix)
 
 
 
@@ -3218,7 +3218,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/freee\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/freee.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/freee\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/freee.nix)
 
 
 
@@ -3245,7 +3245,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/freee\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/freee.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/freee\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/freee.nix)
 
 
 
@@ -3270,11 +3270,13 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/freee\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/freee.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/freee\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/freee.nix)
 
 
 
 ## programs\.freee\.headers
+
+
 
 HTTP headers for authentication\.
 Used with “http” and “sse” transport types\.
@@ -3305,7 +3307,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/freee\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/freee.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/freee\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/freee.nix)
 
 
 
@@ -3353,7 +3355,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/freee\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/freee.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/freee\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/freee.nix)
 
 
 
@@ -3377,7 +3379,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/freee\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/freee.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/freee\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/freee.nix)
 
 
 
@@ -3401,7 +3403,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/freee\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/freee.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/freee\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/freee.nix)
 
 
 
@@ -3433,7 +3435,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/git\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/git.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/git\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/git.nix)
 
 
 
@@ -3457,7 +3459,7 @@ pkgs.mcp-server-git
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/git\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/git.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/git\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/git.nix)
 
 
 
@@ -3481,7 +3483,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/git\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/git.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/git\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/git.nix)
 
 
 
@@ -3508,7 +3510,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/git\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/git.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/git\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/git.nix)
 
 
 
@@ -3533,7 +3535,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/git\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/git.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/git\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/git.nix)
 
 
 
@@ -3570,7 +3572,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/git\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/git.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/git\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/git.nix)
 
 
 
@@ -3618,7 +3620,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/git\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/git.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/git\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/git.nix)
 
 
 
@@ -3642,7 +3644,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/git\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/git.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/git\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/git.nix)
 
 
 
@@ -3666,7 +3668,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/git\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/git.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/git\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/git.nix)
 
 
 
@@ -3698,7 +3700,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/github\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/github.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/github\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/github.nix)
 
 
 
@@ -3722,7 +3724,7 @@ pkgs.github-mcp-server
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/github\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/github.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/github\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/github.nix)
 
 
 
@@ -3746,7 +3748,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/github\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/github.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/github\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/github.nix)
 
 
 
@@ -3773,7 +3775,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/github\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/github.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/github\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/github.nix)
 
 
 
@@ -3798,7 +3800,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/github\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/github.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/github\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/github.nix)
 
 
 
@@ -3835,7 +3837,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/github\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/github.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/github\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/github.nix)
 
 
 
@@ -3883,7 +3885,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/github\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/github.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/github\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/github.nix)
 
 
 
@@ -3907,7 +3909,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/github\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/github.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/github\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/github.nix)
 
 
 
@@ -3931,7 +3933,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/github\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/github.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/github\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/github.nix)
 
 
 
@@ -3963,7 +3965,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/google-calendar\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/google-calendar.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/google-calendar\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/google-calendar.nix)
 
 
 
@@ -3987,7 +3989,7 @@ pkgs.google-calendar-mcp
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/google-calendar\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/google-calendar.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/google-calendar\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/google-calendar.nix)
 
 
 
@@ -4011,7 +4013,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/google-calendar\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/google-calendar.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/google-calendar\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/google-calendar.nix)
 
 
 
@@ -4038,7 +4040,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/google-calendar\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/google-calendar.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/google-calendar\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/google-calendar.nix)
 
 
 
@@ -4063,7 +4065,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/google-calendar\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/google-calendar.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/google-calendar\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/google-calendar.nix)
 
 
 
@@ -4100,7 +4102,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/google-calendar\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/google-calendar.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/google-calendar\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/google-calendar.nix)
 
 
 
@@ -4148,7 +4150,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/google-calendar\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/google-calendar.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/google-calendar\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/google-calendar.nix)
 
 
 
@@ -4172,7 +4174,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/google-calendar\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/google-calendar.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/google-calendar\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/google-calendar.nix)
 
 
 
@@ -4196,7 +4198,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/google-calendar\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/google-calendar.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/google-calendar\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/google-calendar.nix)
 
 
 
@@ -4228,7 +4230,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/grafana\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/grafana.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/grafana\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/grafana.nix)
 
 
 
@@ -4252,7 +4254,7 @@ pkgs.mcp-grafana
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/grafana\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/grafana.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/grafana\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/grafana.nix)
 
 
 
@@ -4276,7 +4278,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/grafana\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/grafana.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/grafana\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/grafana.nix)
 
 
 
@@ -4303,7 +4305,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/grafana\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/grafana.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/grafana\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/grafana.nix)
 
 
 
@@ -4328,7 +4330,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/grafana\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/grafana.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/grafana\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/grafana.nix)
 
 
 
@@ -4365,7 +4367,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/grafana\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/grafana.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/grafana\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/grafana.nix)
 
 
 
@@ -4413,7 +4415,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/grafana\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/grafana.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/grafana\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/grafana.nix)
 
 
 
@@ -4437,7 +4439,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/grafana\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/grafana.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/grafana\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/grafana.nix)
 
 
 
@@ -4461,7 +4463,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/grafana\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/grafana.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/grafana\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/grafana.nix)
 
 
 
@@ -4493,7 +4495,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/greenhouse\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/greenhouse.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/greenhouse\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/greenhouse.nix)
 
 
 
@@ -4517,7 +4519,7 @@ pkgs.greenhouse-mcp
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/greenhouse\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/greenhouse.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/greenhouse\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/greenhouse.nix)
 
 
 
@@ -4541,7 +4543,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/greenhouse\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/greenhouse.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/greenhouse\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/greenhouse.nix)
 
 
 
@@ -4568,7 +4570,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/greenhouse\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/greenhouse.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/greenhouse\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/greenhouse.nix)
 
 
 
@@ -4593,7 +4595,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/greenhouse\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/greenhouse.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/greenhouse\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/greenhouse.nix)
 
 
 
@@ -4630,7 +4632,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/greenhouse\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/greenhouse.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/greenhouse\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/greenhouse.nix)
 
 
 
@@ -4678,7 +4680,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/greenhouse\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/greenhouse.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/greenhouse\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/greenhouse.nix)
 
 
 
@@ -4702,7 +4704,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/greenhouse\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/greenhouse.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/greenhouse\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/greenhouse.nix)
 
 
 
@@ -4726,7 +4728,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/greenhouse\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/greenhouse.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/greenhouse\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/greenhouse.nix)
 
 
 
@@ -4758,7 +4760,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/logseq\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/logseq.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/logseq\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/logseq.nix)
 
 
 
@@ -4782,7 +4784,7 @@ pkgs.mcp-logseq
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/logseq\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/logseq.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/logseq\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/logseq.nix)
 
 
 
@@ -4806,7 +4808,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/logseq\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/logseq.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/logseq\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/logseq.nix)
 
 
 
@@ -4833,7 +4835,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/logseq\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/logseq.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/logseq\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/logseq.nix)
 
 
 
@@ -4858,7 +4860,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/logseq\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/logseq.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/logseq\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/logseq.nix)
 
 
 
@@ -4895,7 +4897,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/logseq\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/logseq.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/logseq\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/logseq.nix)
 
 
 
@@ -4943,7 +4945,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/logseq\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/logseq.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/logseq\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/logseq.nix)
 
 
 
@@ -4967,7 +4969,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/logseq\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/logseq.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/logseq\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/logseq.nix)
 
 
 
@@ -4991,7 +4993,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/logseq\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/logseq.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/logseq\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/logseq.nix)
 
 
 
@@ -5023,7 +5025,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/mastra\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/mastra.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/mastra\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/mastra.nix)
 
 
 
@@ -5047,7 +5049,7 @@ pkgs.mastra-mcp-docs-server
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/mastra\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/mastra.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/mastra\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/mastra.nix)
 
 
 
@@ -5071,7 +5073,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/mastra\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/mastra.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/mastra\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/mastra.nix)
 
 
 
@@ -5098,7 +5100,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/mastra\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/mastra.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/mastra\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/mastra.nix)
 
 
 
@@ -5123,7 +5125,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/mastra\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/mastra.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/mastra\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/mastra.nix)
 
 
 
@@ -5160,7 +5162,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/mastra\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/mastra.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/mastra\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/mastra.nix)
 
 
 
@@ -5208,7 +5210,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/mastra\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/mastra.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/mastra\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/mastra.nix)
 
 
 
@@ -5232,7 +5234,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/mastra\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/mastra.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/mastra\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/mastra.nix)
 
 
 
@@ -5256,7 +5258,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/mastra\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/mastra.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/mastra\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/mastra.nix)
 
 
 
@@ -5288,7 +5290,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/memory\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/memory.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/memory\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/memory.nix)
 
 
 
@@ -5312,7 +5314,7 @@ pkgs.mcp-server-memory
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/memory\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/memory.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/memory\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/memory.nix)
 
 
 
@@ -5336,7 +5338,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/memory\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/memory.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/memory\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/memory.nix)
 
 
 
@@ -5363,7 +5365,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/memory\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/memory.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/memory\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/memory.nix)
 
 
 
@@ -5388,7 +5390,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/memory\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/memory.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/memory\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/memory.nix)
 
 
 
@@ -5425,7 +5427,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/memory\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/memory.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/memory\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/memory.nix)
 
 
 
@@ -5473,7 +5475,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/memory\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/memory.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/memory\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/memory.nix)
 
 
 
@@ -5497,7 +5499,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/memory\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/memory.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/memory\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/memory.nix)
 
 
 
@@ -5521,7 +5523,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/memory\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/memory.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/memory\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/memory.nix)
 
 
 
@@ -5553,7 +5555,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/netdata\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/netdata.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/netdata\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/netdata.nix)
 
 
 
@@ -5577,7 +5579,7 @@ pkgs.nd-mcp
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/netdata\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/netdata.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/netdata\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/netdata.nix)
 
 
 
@@ -5601,7 +5603,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/netdata\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/netdata.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/netdata\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/netdata.nix)
 
 
 
@@ -5628,7 +5630,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/netdata\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/netdata.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/netdata\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/netdata.nix)
 
 
 
@@ -5653,7 +5655,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/netdata\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/netdata.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/netdata\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/netdata.nix)
 
 
 
@@ -5690,7 +5692,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/netdata\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/netdata.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/netdata\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/netdata.nix)
 
 
 
@@ -5738,7 +5740,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/netdata\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/netdata.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/netdata\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/netdata.nix)
 
 
 
@@ -5762,7 +5764,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/netdata\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/netdata.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/netdata\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/netdata.nix)
 
 
 
@@ -5786,7 +5788,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/netdata\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/netdata.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/netdata\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/netdata.nix)
 
 
 
@@ -5816,7 +5818,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/nixos\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/nixos.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/nixos\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/nixos.nix)
 
 
 
@@ -5840,7 +5842,7 @@ pkgs.mcp-nixos
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/nixos\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/nixos.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/nixos\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/nixos.nix)
 
 
 
@@ -5864,7 +5866,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/nixos\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/nixos.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/nixos\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/nixos.nix)
 
 
 
@@ -5891,7 +5893,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/nixos\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/nixos.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/nixos\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/nixos.nix)
 
 
 
@@ -5916,7 +5918,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/nixos\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/nixos.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/nixos\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/nixos.nix)
 
 
 
@@ -5953,7 +5955,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/nixos\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/nixos.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/nixos\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/nixos.nix)
 
 
 
@@ -6001,7 +6003,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/nixos\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/nixos.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/nixos\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/nixos.nix)
 
 
 
@@ -6025,7 +6027,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/nixos\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/nixos.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/nixos\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/nixos.nix)
 
 
 
@@ -6049,7 +6051,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/nixos\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/nixos.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/nixos\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/nixos.nix)
 
 
 
@@ -6081,11 +6083,13 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/notion\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/notion.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/notion\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/notion.nix)
 
 
 
 ## programs\.notion\.package
+
+
 
 The notion-mcp-server package to use\.
 
@@ -6103,7 +6107,7 @@ pkgs.notion-mcp-server
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/notion\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/notion.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/notion\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/notion.nix)
 
 
 
@@ -6127,7 +6131,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/notion\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/notion.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/notion\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/notion.nix)
 
 
 
@@ -6154,7 +6158,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/notion\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/notion.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/notion\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/notion.nix)
 
 
 
@@ -6179,7 +6183,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/notion\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/notion.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/notion\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/notion.nix)
 
 
 
@@ -6216,7 +6220,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/notion\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/notion.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/notion\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/notion.nix)
 
 
 
@@ -6264,7 +6268,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/notion\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/notion.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/notion\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/notion.nix)
 
 
 
@@ -6288,7 +6292,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/notion\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/notion.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/notion\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/notion.nix)
 
 
 
@@ -6312,7 +6316,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/notion\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/notion.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/notion\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/notion.nix)
 
 
 
@@ -6344,7 +6348,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/playwright\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/playwright.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/playwright\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/playwright.nix)
 
 
 
@@ -6368,7 +6372,7 @@ pkgs.playwright-mcp
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/playwright\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/playwright.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/playwright\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/playwright.nix)
 
 
 
@@ -6392,7 +6396,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/playwright\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/playwright.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/playwright\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/playwright.nix)
 
 
 
@@ -6419,7 +6423,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/playwright\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/playwright.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/playwright\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/playwright.nix)
 
 
 
@@ -6444,7 +6448,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/playwright\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/playwright.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/playwright\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/playwright.nix)
 
 
 
@@ -6472,7 +6476,7 @@ else
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/playwright\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/playwright.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/playwright\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/playwright.nix)
 
 
 
@@ -6509,7 +6513,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/playwright\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/playwright.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/playwright\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/playwright.nix)
 
 
 
@@ -6557,7 +6561,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/playwright\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/playwright.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/playwright\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/playwright.nix)
 
 
 
@@ -6581,7 +6585,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/playwright\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/playwright.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/playwright\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/playwright.nix)
 
 
 
@@ -6605,7 +6609,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/playwright\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/playwright.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/playwright\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/playwright.nix)
 
 
 
@@ -6637,7 +6641,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/sequential-thinking\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/sequential-thinking.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/sequential-thinking\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/sequential-thinking.nix)
 
 
 
@@ -6661,7 +6665,7 @@ pkgs.mcp-server-sequential-thinking
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/sequential-thinking\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/sequential-thinking.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/sequential-thinking\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/sequential-thinking.nix)
 
 
 
@@ -6685,7 +6689,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/sequential-thinking\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/sequential-thinking.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/sequential-thinking\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/sequential-thinking.nix)
 
 
 
@@ -6712,7 +6716,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/sequential-thinking\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/sequential-thinking.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/sequential-thinking\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/sequential-thinking.nix)
 
 
 
@@ -6737,7 +6741,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/sequential-thinking\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/sequential-thinking.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/sequential-thinking\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/sequential-thinking.nix)
 
 
 
@@ -6774,7 +6778,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/sequential-thinking\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/sequential-thinking.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/sequential-thinking\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/sequential-thinking.nix)
 
 
 
@@ -6822,7 +6826,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/sequential-thinking\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/sequential-thinking.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/sequential-thinking\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/sequential-thinking.nix)
 
 
 
@@ -6846,7 +6850,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/sequential-thinking\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/sequential-thinking.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/sequential-thinking\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/sequential-thinking.nix)
 
 
 
@@ -6870,7 +6874,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/sequential-thinking\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/sequential-thinking.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/sequential-thinking\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/sequential-thinking.nix)
 
 
 
@@ -6902,7 +6906,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/serena\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/serena.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/serena\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/serena.nix)
 
 
 
@@ -6927,7 +6931,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/serena\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/serena.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/serena\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/serena.nix)
 
 
 
@@ -6951,7 +6955,7 @@ pkgs.serena
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/serena\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/serena.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/serena\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/serena.nix)
 
 
 
@@ -6975,7 +6979,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/serena\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/serena.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/serena\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/serena.nix)
 
 
 
@@ -7000,7 +7004,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/serena\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/serena.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/serena\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/serena.nix)
 
 
 
@@ -7027,7 +7031,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/serena\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/serena.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/serena\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/serena.nix)
 
 
 
@@ -7052,7 +7056,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/serena\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/serena.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/serena\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/serena.nix)
 
 
 
@@ -7086,7 +7090,7 @@ list of package
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/serena\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/serena.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/serena\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/serena.nix)
 
 
 
@@ -7123,7 +7127,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/serena\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/serena.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/serena\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/serena.nix)
 
 
 
@@ -7171,7 +7175,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/serena\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/serena.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/serena\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/serena.nix)
 
 
 
@@ -7195,7 +7199,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/serena\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/serena.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/serena\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/serena.nix)
 
 
 
@@ -7219,7 +7223,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/serena\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/serena.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/serena\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/serena.nix)
 
 
 
@@ -7251,7 +7255,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/signoz\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/signoz.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/signoz\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/signoz.nix)
 
 
 
@@ -7275,7 +7279,7 @@ pkgs.signoz-mcp-server
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/signoz\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/signoz.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/signoz\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/signoz.nix)
 
 
 
@@ -7299,7 +7303,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/signoz\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/signoz.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/signoz\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/signoz.nix)
 
 
 
@@ -7326,7 +7330,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/signoz\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/signoz.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/signoz\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/signoz.nix)
 
 
 
@@ -7351,7 +7355,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/signoz\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/signoz.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/signoz\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/signoz.nix)
 
 
 
@@ -7388,7 +7392,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/signoz\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/signoz.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/signoz\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/signoz.nix)
 
 
 
@@ -7436,7 +7440,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/signoz\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/signoz.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/signoz\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/signoz.nix)
 
 
 
@@ -7460,7 +7464,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/signoz\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/signoz.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/signoz\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/signoz.nix)
 
 
 
@@ -7484,7 +7488,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/signoz\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/signoz.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/signoz\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/signoz.nix)
 
 
 
@@ -7516,7 +7520,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/slite\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/slite.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/slite\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/slite.nix)
 
 
 
@@ -7554,7 +7558,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/slite\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/slite.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/slite\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/slite.nix)
 
 
 
@@ -7578,7 +7582,7 @@ string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/slite\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/slite.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/slite\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/slite.nix)
 
 
 
@@ -7610,7 +7614,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/tavily\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/tavily.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/tavily\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/tavily.nix)
 
 
 
@@ -7634,7 +7638,7 @@ pkgs.tavily-mcp
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/tavily\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/tavily.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/tavily\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/tavily.nix)
 
 
 
@@ -7658,7 +7662,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/tavily\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/tavily.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/tavily\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/tavily.nix)
 
 
 
@@ -7685,7 +7689,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/tavily\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/tavily.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/tavily\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/tavily.nix)
 
 
 
@@ -7710,7 +7714,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/tavily\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/tavily.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/tavily\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/tavily.nix)
 
 
 
@@ -7747,7 +7751,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/tavily\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/tavily.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/tavily\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/tavily.nix)
 
 
 
@@ -7795,7 +7799,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/tavily\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/tavily.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/tavily\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/tavily.nix)
 
 
 
@@ -7819,7 +7823,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/tavily\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/tavily.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/tavily\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/tavily.nix)
 
 
 
@@ -7843,7 +7847,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/tavily\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/tavily.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/tavily\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/tavily.nix)
 
 
 
@@ -7875,7 +7879,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/terraform\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/terraform.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/terraform\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/terraform.nix)
 
 
 
@@ -7899,11 +7903,13 @@ pkgs.terraform-mcp-server
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/terraform\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/terraform.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/terraform\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/terraform.nix)
 
 
 
 ## programs\.terraform\.args
+
+
 
 Array of arguments passed to the command\.
 
@@ -7921,7 +7927,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/terraform\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/terraform.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/terraform\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/terraform.nix)
 
 
 
@@ -7948,7 +7954,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/terraform\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/terraform.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/terraform\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/terraform.nix)
 
 
 
@@ -7973,7 +7979,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/terraform\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/terraform.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/terraform\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/terraform.nix)
 
 
 
@@ -8010,7 +8016,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/terraform\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/terraform.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/terraform\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/terraform.nix)
 
 
 
@@ -8058,7 +8064,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/terraform\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/terraform.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/terraform\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/terraform.nix)
 
 
 
@@ -8082,7 +8088,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/terraform\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/terraform.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/terraform\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/terraform.nix)
 
 
 
@@ -8106,7 +8112,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/terraform\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/terraform.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/terraform\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/terraform.nix)
 
 
 
@@ -8138,7 +8144,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/textlint\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/textlint.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/textlint\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/textlint.nix)
 
 
 
@@ -8162,7 +8168,7 @@ pkgs.textlint
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/textlint\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/textlint.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/textlint\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/textlint.nix)
 
 
 
@@ -8186,7 +8192,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/textlint\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/textlint.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/textlint\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/textlint.nix)
 
 
 
@@ -8220,7 +8226,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/textlint\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/textlint.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/textlint\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/textlint.nix)
 
 
 
@@ -8247,7 +8253,7 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/textlint\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/textlint.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/textlint\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/textlint.nix)
 
 
 
@@ -8272,7 +8278,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/textlint\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/textlint.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/textlint\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/textlint.nix)
 
 
 
@@ -8310,7 +8316,7 @@ list of package
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/textlint\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/textlint.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/textlint\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/textlint.nix)
 
 
 
@@ -8347,7 +8353,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/textlint\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/textlint.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/textlint\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/textlint.nix)
 
 
 
@@ -8395,7 +8401,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/textlint\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/textlint.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/textlint\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/textlint.nix)
 
 
 
@@ -8437,7 +8443,7 @@ attribute set of anything
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/textlint\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/textlint.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/textlint\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/textlint.nix)
 
 
 
@@ -8461,7 +8467,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/textlint\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/textlint.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/textlint\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/textlint.nix)
 
 
 
@@ -8485,7 +8491,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/textlint\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/textlint.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/textlint\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/textlint.nix)
 
 
 
@@ -8517,7 +8523,7 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/time\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/time.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/time\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/time.nix)
 
 
 
@@ -8541,7 +8547,7 @@ pkgs.mcp-server-time
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/time\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/time.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/time\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/time.nix)
 
 
 
@@ -8565,7 +8571,7 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/time\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/time.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/time\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/time.nix)
 
 
 
@@ -8592,11 +8598,13 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/time\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/time.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/time\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/time.nix)
 
 
 
 ## programs\.time\.envFile
+
+
 
 Path to an \.env from which to load additional environment variables\.
 When flavor is set to ‘vscode’, the environment file is passed directly as a parameter instead of wrapping by default\.
@@ -8615,7 +8623,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/time\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/time.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/time\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/time.nix)
 
 
 
@@ -8652,7 +8660,7 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/time\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/time.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/time\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/time.nix)
 
 
 
@@ -8700,7 +8708,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/time\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/time.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/time\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/time.nix)
 
 
 
@@ -8724,7 +8732,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/time\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/time.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/time\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/time.nix)
 
 
 
@@ -8748,7 +8756,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/time\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/time.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/time\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/time.nix)
 
 
 
@@ -8772,6 +8780,6 @@ open submodule of (JSON value)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/config\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/config.nix)
+ - [\<mcp-servers-nix-plus/modules/servers/config\.nix>](https://github.com/antono/mcp-servers-nix-plus/blob/main/modules/servers/config.nix)
 
 

@@ -31,8 +31,8 @@ let
   revision = "main";
 
   gitHubDeclaration = subpath: {
-    url = "https://github.com/natsukium/mcp-servers-nix/blob/${revision}/${subpath}";
-    name = "<mcp-servers-nix/${subpath}>";
+    url = "https://github.com/antono/mcp-servers-nix-plus/blob/${revision}/${subpath}";
+    name = "<mcp-servers-nix-plus/${subpath}>";
   };
 
   optionsDoc = pkgs.nixosOptionsDoc {
