@@ -3270,11 +3270,11 @@ null
 
 
 
-## programs\.ha-mcp\.enable
+## programs\.home-assistant\.enable
 
 
 
-Whether to enable ha-mcp\.
+Whether to enable home-assistant\.
 
 
 
@@ -3298,11 +3298,11 @@ true
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/ha-mcp\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/ha-mcp.nix)
+ - [\<mcp-servers-nix/modules/servers/home-assistant\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/home-assistant.nix)
 
 
 
-## programs\.ha-mcp\.package
+## programs\.home-assistant\.package
 
 
 
@@ -3322,11 +3322,11 @@ pkgs.ha-mcp
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/ha-mcp\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/ha-mcp.nix)
+ - [\<mcp-servers-nix/modules/servers/home-assistant\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/home-assistant.nix)
 
 
 
-## programs\.ha-mcp\.args
+## programs\.home-assistant\.args
 
 
 
@@ -3346,11 +3346,11 @@ list of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/ha-mcp\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/ha-mcp.nix)
+ - [\<mcp-servers-nix/modules/servers/home-assistant\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/home-assistant.nix)
 
 
 
-## programs\.ha-mcp\.env
+## programs\.home-assistant\.env
 
 
 
@@ -3373,11 +3373,11 @@ attribute set of (boolean or signed integer or string)
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/ha-mcp\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/ha-mcp.nix)
+ - [\<mcp-servers-nix/modules/servers/home-assistant\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/home-assistant.nix)
 
 
 
-## programs\.ha-mcp\.envFile
+## programs\.home-assistant\.envFile
 
 
 
@@ -3398,11 +3398,11 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/ha-mcp\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/ha-mcp.nix)
+ - [\<mcp-servers-nix/modules/servers/home-assistant\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/home-assistant.nix)
 
 
 
-## programs\.ha-mcp\.headers
+## programs\.home-assistant\.headers
 
 
 
@@ -3435,11 +3435,11 @@ attribute set of string
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/ha-mcp\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/ha-mcp.nix)
+ - [\<mcp-servers-nix/modules/servers/home-assistant\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/home-assistant.nix)
 
 
 
-## programs\.ha-mcp\.passwordCommand
+## programs\.home-assistant\.passwordCommand
 
 
 
@@ -3483,11 +3483,11 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/ha-mcp\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/ha-mcp.nix)
+ - [\<mcp-servers-nix/modules/servers/home-assistant\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/home-assistant.nix)
 
 
 
-## programs\.ha-mcp\.type
+## programs\.home-assistant\.type
 
 
 
@@ -3507,11 +3507,11 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/ha-mcp\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/ha-mcp.nix)
+ - [\<mcp-servers-nix/modules/servers/home-assistant\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/home-assistant.nix)
 
 
 
-## programs\.ha-mcp\.url
+## programs\.home-assistant\.url
 
 
 
@@ -3531,7 +3531,7 @@ null
 ```
 
 *Declared by:*
- - [\<mcp-servers-nix/modules/servers/ha-mcp\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/ha-mcp.nix)
+ - [\<mcp-servers-nix/modules/servers/home-assistant\.nix>](https://github.com/natsukium/mcp-servers-nix/blob/main/modules/servers/home-assistant.nix)
 
 
 
