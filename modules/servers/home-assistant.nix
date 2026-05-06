@@ -2,7 +2,7 @@
 {
   imports = [
     (mkServerModule {
-      name = "ha-mcp";
+      name = "home-assistant";
       packageName = "ha-mcp";
     })
   ];
