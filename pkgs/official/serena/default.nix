@@ -1,23 +1,78 @@
 {
+  darwin,
   lib,
   fetchFromGitHub,
   fortls,
   nodejs,
   pyright,
   python3Packages,
+  stdenv,
   writableTmpDirAsHomeHook,
 }:
 
+let
+  # pywebview requires pyobjc-framework-UniformTypeIdentifiers on Darwin to
+  # populate file dialog content types, but nixpkgs does not yet ship it.
+  # Build it here from the same pyobjc source already used by the other
+  # pyobjc-framework-* packages in nixpkgs.
+  pyobjc-framework-uniformtypeidentifiers = python3Packages.buildPythonPackage {
+    pname = "pyobjc-framework-uniformtypeidentifiers";
+    pyproject = true;
+
+    inherit (python3Packages.pyobjc-core) version src patches;
+
+    sourceRoot = "${python3Packages.pyobjc-core.src.name}/pyobjc-framework-UniformTypeIdentifiers";
+
+    build-system = [ python3Packages.setuptools ];
+
+    buildInputs = [ darwin.libffi ];
+    nativeBuildInputs = [ darwin.DarwinTools ];
+
+    postPatch = ''
+      substituteInPlace pyobjc_setup.py \
+        --replace-fail "-buildversion" "-buildVersion" \
+        --replace-fail "-productversion" "-productVersion" \
+        --replace-fail "/usr/bin/sw_vers" "sw_vers" \
+        --replace-fail "/usr/bin/xcrun" "xcrun"
+    '';
+
+    dependencies = with python3Packages; [
+      pyobjc-core
+      pyobjc-framework-Cocoa
+    ];
+
+    env.NIX_CFLAGS_COMPILE = toString [
+      "-I${darwin.libffi.dev}/include"
+      "-Wno-error=unused-command-line-argument"
+    ];
+
+    pythonImportsCheck = [ "UniformTypeIdentifiers" ];
+
+    meta = {
+      description = "PyObjC wrappers for the UniformTypeIdentifiers framework on macOS";
+      homepage = "https://github.com/ronaldoussoren/pyobjc/tree/main/pyobjc-framework-UniformTypeIdentifiers";
+      license = lib.licenses.mit;
+      platforms = lib.platforms.darwin;
+    };
+  };
+
+  pywebview = python3Packages.pywebview.overridePythonAttrs (
+    old:
+    lib.optionalAttrs stdenv.hostPlatform.isDarwin {
+      dependencies = (old.dependencies or [ ]) ++ [ pyobjc-framework-uniformtypeidentifiers ];
+    }
+  );
+in
 python3Packages.buildPythonApplication (finalAttrs: {
   pname = "serena";
-  version = "0.1.4-unstable-2026-03-23";
+  version = "1.2.0-unstable-2025-05-10";
   pyproject = true;
 
   src = fetchFromGitHub {
     owner = "oraios";
     repo = "serena";
-    rev = "37d700e39cde9a5ffc021e0a076e618bfa9033d2";
-    hash = "sha256-1aqjageO4qeYbR/bsJPru1siziXbJtngBwmy7rSQWuI=";
+    rev = "737ef7672334ab60e8bb55c92354292ddd15660e";
+    hash = "sha256-qcQxFfDa83/r2KNghmB3jpDAodkxEf0LDzA/jr8gIW4=";
   };
 
   postPatch = ''
@@ -38,28 +93,36 @@ python3Packages.buildPythonApplication (finalAttrs: {
     "dotenv"
   ];
 
-  dependencies = with python3Packages; [
-    anthropic
-    beautifulsoup4
-    docstring-parser
-    flask
-    fortls
-    jinja2
-    joblib
-    mcp
-    overrides
-    pathspec
-    psutil
-    pydantic
-    python-dotenv
-    pyyaml
-    requests
-    ruamel-yaml
-    sensai-utils
-    tiktoken
-    tqdm
-    types-pyyaml
-  ];
+  dependencies =
+    (with python3Packages; [
+      anthropic
+      beautifulsoup4
+      cryptography
+      docstring-parser
+      flask
+      fortls
+      jinja2
+      joblib
+      lsprotocol
+      mcp
+      overrides
+      pathspec
+      psutil
+      pydantic
+      pygls
+      pystray
+      python-dotenv
+      pyyaml
+      requests
+      ruamel-yaml
+      sensai-utils
+      tiktoken
+      tqdm
+      types-pyyaml
+    ])
+    ++ [
+      pywebview
+    ];
 
   makeWrapperArgs = [
     "--prefix"
@@ -83,6 +146,7 @@ python3Packages.buildPythonApplication (finalAttrs: {
   disabledTests = [
     # Requires various language runtimes and language servers
     "test_serena_agent.py"
+    "test_symbol.py"
     "test_symbol_editing.py"
 
     # Tests fail in upstream CI due to LSP server initialization issues
