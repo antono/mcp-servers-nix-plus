@@ -47,5 +47,6 @@ in
   greenhouse-mcp = pkgs.callPackage ./plus/greenhouse { };
   mcp-logseq = pkgs.callPackage ./plus/mcp-logseq { };
   signoz-mcp-server = pkgs.callPackage ./plus/signoz { };
+  freecad-mcp = pkgs.callPackage ./plus/freecad-mcp { };
   ctxo = pkgs.callPackage ./plus/ctxo { };
 }
