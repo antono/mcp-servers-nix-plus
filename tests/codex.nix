@@ -26,9 +26,7 @@ in
         nativeBuildInputs = with pkgs; [ ];
       }
       ''
-        # Test that configuration generation succeeded by referencing the output
-        # The fact that this derivation runs means the config was generated
-        # The content is validated by the toml-inline format tests
-        echo "codex config test passed" > $out
+        export CODEX_HOME=$(mktemp -d)
+        codex -c "$(cat ${testConfig})" mcp list | grep -e filesystem > $out
       '';
 }
