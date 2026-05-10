@@ -2,8 +2,8 @@
   lib,
   fetchFromGitHub,
   rustPlatform,
-  versionCheckHook,
-  versionCheckHomeHook,
+  versionCheckHook ? null,
+  versionCheckHomeHook ? null,
 }:
 
 rustPlatform.buildRustPackage rec {
@@ -40,9 +40,10 @@ rustPlatform.buildRustPackage rec {
   '';
 
   doInstallCheck = true;
-  nativeInstallCheckInputs = [
-    versionCheckHook
-    versionCheckHomeHook
+  # only include check hooks if provided by the caller
+  nativeInstallCheckInputs = lib.concatLists [
+    (if versionCheckHook == null then [] else [ versionCheckHook ])
+    (if versionCheckHomeHook == null then [] else [ versionCheckHomeHook ])
   ];
 
   passthru.category = "Utilities";

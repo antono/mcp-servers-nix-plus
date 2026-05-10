@@ -18,6 +18,8 @@ let
       };
     };
   };
+  # alias for legacy name used in the test command
+  testConfig = test-config;
 in
 {
   test-codex =
