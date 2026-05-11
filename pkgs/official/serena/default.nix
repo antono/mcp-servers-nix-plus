@@ -65,7 +65,7 @@ let
 in
 python3Packages.buildPythonApplication (finalAttrs: {
   pname = "serena";
-  version = "2025-06-20-unstable-2026-05-10";
+  version = "1.2.0-unstable-2026-05-10";
   pyproject = true;
 
   src = fetchFromGitHub {
