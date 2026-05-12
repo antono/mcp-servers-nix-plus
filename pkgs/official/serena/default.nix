@@ -65,14 +65,14 @@ let
 in
 python3Packages.buildPythonApplication (finalAttrs: {
   pname = "serena";
-  version = "2025-06-20-unstable-2026-05-10";
+  version = "1.3.0-unstable-2026-05-12";
   pyproject = true;
 
   src = fetchFromGitHub {
     owner = "oraios";
     repo = "serena";
-    rev = "737ef7672334ab60e8bb55c92354292ddd15660e";
-    hash = "sha256-qcQxFfDa83/r2KNghmB3jpDAodkxEf0LDzA/jr8gIW4=";
+    rev = "70d939739a3b1e85ab76c880c41a1b43e2c62730";
+    hash = "sha256-CQPcbLzn4NXRqTZvik5Tzf1McyzxZatQDRrALJX8mnU=";
   };
 
   postPatch = ''
