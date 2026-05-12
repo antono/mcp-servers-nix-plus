@@ -130,7 +130,7 @@ The output format adapts to the `flavor` option — see
 - [google-calendar](./modules/servers/google-calendar.nix) — Google Calendar MCP
 - [greenhouse](./modules/servers/greenhouse.nix) — Greenhouse Harvest API MCP
 - [logseq](./modules/servers/logseq.nix) — LogSeq MCP server
-- [signoz](./modules/servers/signoz.nix) — SigNoz observability MCP server
+ 
 
 ## Examples
 
@@ -138,8 +138,7 @@ Check the `examples` directory for complete configuration examples:
 
 - [`claude-desktop.nix`](./examples/claude-desktop.nix): Basic configuration for
   Claude Desktop
-- [`signoz.nix`](./examples/signoz.nix): SigNoz observability with
-  passwordCommand
+ 
 - [`vscode.nix`](./examples/vscode.nix): VS Code integration setup
 - [`librechat.nix`](./examples/librechat.nix): Configuration for LibreChat
   integration
